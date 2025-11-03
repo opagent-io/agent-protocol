@@ -2,7 +2,7 @@
 // Use of this source code is governed by an MIT-style
 // license that can be found in the LICENSE file.
 
-package mcp
+package ap_test
 
 import (
 	"context"
@@ -15,8 +15,8 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/opagent-io/agent-protocol/internal/jsonrpc2"
 	"github.com/modelcontextprotocol/go-sdk/jsonrpc"
+	"github.com/opagent-io/agent-protocol/internal/jsonrpc2"
 )
 
 type streamableRequestKey struct {

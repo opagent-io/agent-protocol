@@ -2,7 +2,7 @@
 // Use of this source code is governed by an MIT-style
 // license that can be found in the LICENSE file.
 
-package mcp
+package ap
 
 import (
 	"context"
@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/opagent-io/agent-protocol/internal/jsonrpc2"
 	"github.com/modelcontextprotocol/go-sdk/jsonrpc"
+	"github.com/opagent-io/agent-protocol/internal/jsonrpc2"
 )
 
 func TestBatchFraming(t *testing.T) {

@@ -2,7 +2,7 @@
 // Use of this source code is governed by an MIT-style
 // license that can be found in the LICENSE file.
 
-package mcp
+package ap
 
 import (
 	"context"
@@ -15,9 +15,9 @@ import (
 	"os"
 	"sync"
 
+	"github.com/modelcontextprotocol/go-sdk/jsonrpc"
 	"github.com/opagent-io/agent-protocol/internal/jsonrpc2"
 	"github.com/opagent-io/agent-protocol/internal/xcontext"
-	"github.com/modelcontextprotocol/go-sdk/jsonrpc"
 )
 
 // ErrConnectionClosed is returned when sending a message to a connection that

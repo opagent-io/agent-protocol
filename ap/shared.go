@@ -9,7 +9,7 @@
 // generics. If this becomes unwieldy, it can perhaps be simplified with
 // reflection.
 
-package mcp
+package ap
 
 import (
 	"context"
@@ -23,8 +23,8 @@ import (
 	"time"
 
 	"github.com/modelcontextprotocol/go-sdk/auth"
-	"github.com/opagent-io/agent-protocol/internal/jsonrpc2"
 	"github.com/modelcontextprotocol/go-sdk/jsonrpc"
+	"github.com/opagent-io/agent-protocol/internal/jsonrpc2"
 )
 
 const (

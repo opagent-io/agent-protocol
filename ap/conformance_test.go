@@ -4,7 +4,7 @@
 
 //go:build (go1.24 && goexperiment.synctest) || go1.25
 
-package mcp
+package ap
 
 import (
 	"bytes"
@@ -25,8 +25,8 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"github.com/google/jsonschema-go/jsonschema"
-	"github.com/opagent-io/agent-protocol/internal/jsonrpc2"
 	"github.com/modelcontextprotocol/go-sdk/jsonrpc"
+	"github.com/opagent-io/agent-protocol/internal/jsonrpc2"
 	"golang.org/x/tools/txtar"
 )
 

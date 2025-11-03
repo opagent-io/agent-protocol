@@ -2,7 +2,7 @@
 // Use of this source code is governed by an MIT-style
 // license that can be found in the LICENSE file.
 
-package mcp
+package ap
 
 import (
 	"bytes"
@@ -23,9 +23,9 @@ import (
 	"time"
 
 	"github.com/google/jsonschema-go/jsonschema"
+	"github.com/modelcontextprotocol/go-sdk/jsonrpc"
 	"github.com/opagent-io/agent-protocol/internal/jsonrpc2"
 	"github.com/opagent-io/agent-protocol/internal/util"
-	"github.com/modelcontextprotocol/go-sdk/jsonrpc"
 	"github.com/yosida95/uritemplate/v3"
 )
 

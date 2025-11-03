@@ -2,7 +2,7 @@
 // Use of this source code is governed by an MIT-style
 // license that can be found in the LICENSE file.
 
-package mcp
+package ap
 
 import (
 	"bytes"
@@ -13,8 +13,8 @@ import (
 	"net/url"
 	"sync"
 
-	"github.com/opagent-io/agent-protocol/internal/jsonrpc2"
 	"github.com/modelcontextprotocol/go-sdk/jsonrpc"
+	"github.com/opagent-io/agent-protocol/internal/jsonrpc2"
 )
 
 // This file implements support for SSE (HTTP with server-sent events)
