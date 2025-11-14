@@ -4,7 +4,7 @@
 
 // This file holds the request types.
 
-package ap
+package op
 
 type (
 	CallToolRequest                   = ServerRequest[*CallToolParamsRaw]

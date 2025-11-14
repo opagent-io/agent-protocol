@@ -2,7 +2,7 @@
 // Use of this source code is governed by an MIT-style
 // license that can be found in the LICENSE file.
 
-package ap
+package op
 
 // hasSessionID is the interface which, if implemented by connections, informs
 // the session about their session ID.

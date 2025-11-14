@@ -2,7 +2,7 @@
 // Use of this source code is governed by an MIT-style
 // license that can be found in the LICENSE file.
 
-package ap
+package op
 
 // Protocol types for version 2025-06-18.
 // To see the schema changes from the previous version, run:

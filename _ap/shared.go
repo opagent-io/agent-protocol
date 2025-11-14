@@ -9,7 +9,7 @@
 // generics. If this becomes unwieldy, it can perhaps be simplified with
 // reflection.
 
-package ap
+package op
 
 import (
 	"context"

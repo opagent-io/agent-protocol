@@ -4,7 +4,7 @@
 
 //go:build (go1.24 && goexperiment.synctest) || go1.25
 
-package ap
+package op
 
 import (
 	"bytes"

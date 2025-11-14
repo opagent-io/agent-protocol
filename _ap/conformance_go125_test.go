@@ -4,7 +4,7 @@
 
 //go:build go1.25
 
-package ap_test
+package op_test
 
 import (
 	"testing"
