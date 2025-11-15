@@ -1430,38 +1430,6 @@ type ToolCapabilities struct {
 	ListChanged bool `json:"listChanged,omitempty"`
 }
 
-const (
-	methodCallTool                  = "tools/call"
-	methodOpAgent                   = "op/agent"
-	notificationCancelled           = "notifications/cancelled"
-	methodComplete                  = "completion/complete"
-	methodCreateMessage             = "sampling/createMessage"
-	methodOpHost                    = "op/host"
-	methodGenerateMessage           = "sampling/createMessage"
-	methodElicit                    = "elicitation/create"
-	methodGetPrompt                 = "prompts/get"
-	methodInitialize                = "initialize"
-	notificationInitialized         = "notifications/initialized"
-	methodListPrompts               = "prompts/list"
-	methodListResourceTemplates     = "resources/templates/list"
-	methodListResources             = "resources/list"
-	methodListRoots                 = "roots/list"
-	methodListTools                 = "tools/list"
-	notificationLoggingMessage      = "notifications/message"
-	methodPing                      = "ping"
-	notificationProgress            = "notifications/progress"
-	notificationPromptListChanged   = "notifications/prompts/list_changed"
-	methodReadResource              = "resources/read"
-	notificationResourceListChanged = "notifications/resources/list_changed"
-	notificationResourceUpdated     = "notifications/resources/updated"
-	notificationRootsListChanged    = "notifications/roots/list_changed"
-	methodSetLevel                  = "logging/setLevel"
-	methodSubscribe                 = "resources/subscribe"
-	notificationToolListChanged     = "notifications/tools/list_changed"
-	notificationOpListChanged       = "notifications/ops/list_changed"
-	methodUnsubscribe               = "resources/unsubscribe"
-)
-
 // getError returns the error set with setError, or nil if none.
 // This function always returns nil on clients.
 func (r *OpAgentResult) getError() error {
